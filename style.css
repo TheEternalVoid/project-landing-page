@@ -11,16 +11,56 @@ body {
 }
 
 .nav {
+    background-color: #1F2937;
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
 
 .navul {
+    font-size: 18px;
+    color: #E5E7EB;
+    list-style-type: none;
     display: flex;
+    gap: 10px;
+    
 }
 
 .headerlogo {
+    font-size: 24px;
+    color: #F9FAF8;
     display: flex;
     align-items: center;
+
+}
+
+.content-one {
+    background-color: #1F2937;
+    font-size: 18px;
+    color: #E5E7EB;  
+}
+
+.content-one h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.content-one button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 10%;
+    border: 0;
+}
+
+.testomonial {
+    background-color: #E5E7EB;
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 200;
+}
+
+#imageone {
+    background-color: #808080;
 }
