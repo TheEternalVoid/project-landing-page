@@ -32,7 +32,6 @@ h2 {
 .navul {
     font-size: 18px;
     color: #E5E7EB;
-
     display: flex;
     gap: 10px;
     margin-right: 10%;
@@ -109,11 +108,34 @@ h2 {
 
 .content-two {
     width: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.box {
+    border: 3px solid #3882F6;
+    width: 100px;
+    height: 100px;
+    border-radius: 10%;
+}
+
+.headertwo {
+    width: 100%;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+}
+
+.boxgroup {
+    display: flex;
+    justify-content: center;
     align-items: center;
+    flex-direction: column;
+    width:  25%;
+    text-align: center;
 }
 
 .content-two ul {
     display: flex;
+    margin-top: 0;
+    margin-bottom: 100px;
 }
